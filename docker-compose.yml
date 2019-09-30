@@ -1,0 +1,7 @@
+ros:
+  image: henry2423/ros-vnc-ubuntu:kinetic
+  volumes:
+    - ./install.sh:/home/ros/install.sh
+  ports:
+    - "5901:5901"
+    - "6901:6901"
