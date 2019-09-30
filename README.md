@@ -36,7 +36,7 @@ rosrun turtlesim turtlesim_node
 в третьем:
 ```bash
 cd ~/catkin_ws/src/turtlesim_cleaner/src
-"rosrun turtlesim_cleaner move.py
+rosrun turtlesim_cleaner move.py
 ```
 
 далее числами вводите скорость, расстояние и True или False для направления движения
