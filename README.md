@@ -13,7 +13,9 @@ docker-compose build --no-cache && docker-compose up
 ```
 
 
-далее в браузере перейдите по адресу localhost:6091
+далее в браузере перейдите по адресу 
+"localhost:6091"
+
 пароль "vncpassword"
 здесь развернут контейнер
 откройте терминал
