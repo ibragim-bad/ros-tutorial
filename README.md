@@ -8,7 +8,10 @@
 Сначала установите себе докер
 потом в папке проекта запустите docker-compose командой
 
-"docker-compose build --no-cache && docker-compose up"
+```bash
+docker-compose build --no-cache && docker-compose up
+```
+
 
 далее в браузере перейдите по адресу localhost:6091
 пароль "vncpassword"
@@ -17,16 +20,26 @@
 (если что пользователь ros, пароль ros)
 
 запустите скрипт 
-"./install.sh"
+```bash
+./install.sh
+```
 
 далее нужно открыть три вкладки терминала (или окна) и ввести команды:
-в первом терминале "roscore"
-во втором "rosrun turtlesim turtlesim_node"
+в первом терминале
+```bash
+roscore
+```
+во втором
+```bash
+rosrun turtlesim turtlesim_node
+```
 в третьем:
-"cd ~/catkin_ws/src/turtlesim_cleaner/src"
-"rosrun turtlesim_cleaner move.py"
+```bash
+cd ~/catkin_ws/src/turtlesim_cleaner/src
+"rosrun turtlesim_cleaner move.py
+```
 
-далее вводите две числа и True или False
+далее числами вводите скорость, расстояние и True или False для направления движения
 
 http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line
 
