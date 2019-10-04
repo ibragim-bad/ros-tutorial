@@ -1,5 +1,5 @@
 ros:
-  image: henry2423/ros-vnc-ubuntu:kinetic
+  image: henry2423/ros-vnc-ubuntu:melodic
   volumes:
     - ./install.sh:/home/ros/install.sh
   ports:
